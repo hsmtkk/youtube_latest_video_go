@@ -4,6 +4,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
+	"github.com/hsmtkk/youtube_latest_video_go/pkg"
 	"github.com/hsmtkk/youtube_latest_video_go/pkg/channelid/parser"
 )
 
@@ -12,8 +13,7 @@ type ChannelIDResolver interface {
 }
 
 func New(apiKey string) ChannelIDResolver {
-	url := "https://www.googleapis.com/youtube/v3/search"
-	return &channelIDResolverImpl{client: http.DefaultClient, url: url, apiKey: apiKey}
+	return &channelIDResolverImpl{client: http.DefaultClient, url: pkg.SearchAPIURL, apiKey: apiKey}
 }
 
 func NewForTest(client *http.Client, url, apiKey string) ChannelIDResolver {

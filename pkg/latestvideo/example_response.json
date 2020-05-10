@@ -1,0 +1,45 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "\"Dn5xIderbhAnUk5TAW0qkFFir0M/SrsoEUQDO2McktwTjyrMUFG3NME\"",
+    "nextPageToken": "CAEQAA",
+    "regionCode": "JP",
+    "pageInfo": {
+     "totalResults": 2371,
+     "resultsPerPage": 1
+    },
+    "items": [
+     {
+      "kind": "youtube#searchResult",
+      "etag": "\"Dn5xIderbhAnUk5TAW0qkFFir0M/RAGEkkDYH1Hoj8iF0MqvPDbqZPU\"",
+      "id": {
+       "kind": "youtube#video",
+       "videoId": "iuB8oL1ytTk"
+      },
+      "snippet": {
+       "publishedAt": "2020-05-09T03:04:40.000Z",
+       "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+       "title": "Thank You Parents",
+       "description": "Being a parent is different this year because parents have had to become so much more. Thanks to all the moms and dads for being our barbers, teachers, chefs ...",
+       "thumbnails": {
+        "default": {
+         "url": "https://i.ytimg.com/vi/iuB8oL1ytTk/default.jpg",
+         "width": 120,
+         "height": 90
+        },
+        "medium": {
+         "url": "https://i.ytimg.com/vi/iuB8oL1ytTk/mqdefault.jpg",
+         "width": 320,
+         "height": 180
+        },
+        "high": {
+         "url": "https://i.ytimg.com/vi/iuB8oL1ytTk/hqdefault.jpg",
+         "width": 480,
+         "height": 360
+        }
+       },
+       "channelTitle": "Google",
+       "liveBroadcastContent": "none"
+      }
+     }
+    ]
+   }
