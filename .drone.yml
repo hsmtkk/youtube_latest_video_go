@@ -15,7 +15,9 @@ steps:
       YOUTUBE_API_KEY:
         from_secret: YOUTUBE_API_KEY
     commands:
-      - echo success
+      - cd pkg/apikey && go test
+      - cd ../channelid && go test
+      - cd parser && go test
   - name: build
     depends_on:
       - lint
