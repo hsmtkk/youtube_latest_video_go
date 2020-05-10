@@ -8,6 +8,7 @@ import (
 	"net/http/httputil"
 	"testing"
 
+	"github.com/hsmtkk/youtube_latest_video_go/pkg/apikey"
 	"github.com/hsmtkk/youtube_latest_video_go/pkg/channelid"
 	"github.com/stretchr/testify/assert"
 )
@@ -25,4 +26,14 @@ func TestLocal(t *testing.T) {
 	channelID, err := resolver.ResolveChannelID("Google")
 	assert.Nil(t, err, "should be nil")
 	log.Println(channelID)
+}
+
+func TestReal(t *testing.T) {
+	apiKey, err := apikey.New().LoadAPIKey()
+	assert.Nil(t, err, "should be nil")
+	resolver := channelid.New(apiKey)
+	want := "UCK8sQmJBp8GCxrOtXWBpyEA"
+	got, err := resolver.ResolveChannelID("Google")
+	assert.Nil(t, err, "should be nil")
+	assert.Equal(t, want, got, "should be equal")
 }

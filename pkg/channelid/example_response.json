@@ -1,0 +1,152 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "Z8bHT9783Y9pRnDikbVvQb9tCoE",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "JP",
+    "pageInfo": {
+      "totalResults": 812590,
+      "resultsPerPage": 5
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "xIUvVE-_xioOc4N70uaZKrlYrPY",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA"
+        },
+        "snippet": {
+          "publishedAt": "2005-09-18T22:37:10Z",
+          "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+          "title": "Google",
+          "description": "Experience the world of Google on our official YouTube channel. Watch videos about our products, technology, company happenings and more. Subscribe to ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/-v0soe-ievYE/AAAAAAAAAAI/AAAAAAAAAAA/OixOH_h84Po/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/-v0soe-ievYE/AAAAAAAAAAI/AAAAAAAAAAA/OixOH_h84Po/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/-v0soe-ievYE/AAAAAAAAAAI/AAAAAAAAAAA/OixOH_h84Po/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            }
+          },
+          "channelTitle": "Google",
+          "liveBroadcastContent": "upcoming",
+          "publishTime": "2005-09-18T22:37:10Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "p7l-9F4F0oniSGW-cLMSQOxqWQQ",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCTnRxVUPssiL7H29ON07t_Q"
+        },
+        "snippet": {
+          "publishedAt": "2006-09-23T10:26:22Z",
+          "channelId": "UCTnRxVUPssiL7H29ON07t_Q",
+          "title": "Google Japan",
+          "description": "Google 日本版 公式チャンネル.",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/-T63Q6iRfa_8/AAAAAAAAAAI/AAAAAAAAAAA/GCKYLAK_Fmg/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/-T63Q6iRfa_8/AAAAAAAAAAI/AAAAAAAAAAA/GCKYLAK_Fmg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/-T63Q6iRfa_8/AAAAAAAAAAI/AAAAAAAAAAA/GCKYLAK_Fmg/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            }
+          },
+          "channelTitle": "Google Japan",
+          "liveBroadcastContent": "upcoming",
+          "publishTime": "2006-09-23T10:26:22Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "4VrkP5uXXxUR6UI7JLCWBv8EQbU",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCWIzrKzN4KY6BPU8hsk880Q"
+        },
+        "snippet": {
+          "publishedAt": "2008-02-07T22:05:16Z",
+          "channelId": "UCWIzrKzN4KY6BPU8hsk880Q",
+          "title": "Life at Google",
+          "description": "Googlers are here to give you the inside scoop on our work, culture, offices, and everything else that makes up life at Google. And we've got you covered with ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/-8fpYEnLUxJ0/AAAAAAAAAAI/AAAAAAAAAAA/-1kvag70a08/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/-8fpYEnLUxJ0/AAAAAAAAAAI/AAAAAAAAAAA/-1kvag70a08/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/-8fpYEnLUxJ0/AAAAAAAAAAI/AAAAAAAAAAA/-1kvag70a08/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            }
+          },
+          "channelTitle": "Life at Google",
+          "liveBroadcastContent": "upcoming",
+          "publishTime": "2008-02-07T22:05:16Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Ju8BAR8GbK4Z66a3UH4Wqf3wNP0",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCbmNph6atAoGfqLoCL_duAg"
+        },
+        "snippet": {
+          "publishedAt": "2006-12-19T19:49:14Z",
+          "channelId": "UCbmNph6atAoGfqLoCL_duAg",
+          "title": "Talks at Google",
+          "description": "The Talks at Google program brings authors, musicians, innovators, and speakers of all stripes to Google for talks centering on their recently published books ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/-ozFJ7rgchzE/AAAAAAAAAAI/AAAAAAAAAAA/enZ21DQkAok/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/-ozFJ7rgchzE/AAAAAAAAAAI/AAAAAAAAAAA/enZ21DQkAok/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/-ozFJ7rgchzE/AAAAAAAAAAI/AAAAAAAAAAA/enZ21DQkAok/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            }
+          },
+          "channelTitle": "Talks at Google",
+          "liveBroadcastContent": "none",
+          "publishTime": "2006-12-19T19:49:14Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "1UDvzlgQnWJfiWQjo1pwFLey87U",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCt84aUC9OG6di8kSdKzEHTQ"
+        },
+        "snippet": {
+          "publishedAt": "2010-08-18T17:16:03Z",
+          "channelId": "UCt84aUC9OG6di8kSdKzEHTQ",
+          "title": "Google for Education",
+          "description": "Google for Education is about learning for everyone, anywhere. Subscribe to our channel for product news and updates, resources, and ideas. We believe that ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/-JfxTnVl5ygo/AAAAAAAAAAI/AAAAAAAAAAA/dO-dGc4dGjQ/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/-JfxTnVl5ygo/AAAAAAAAAAI/AAAAAAAAAAA/dO-dGc4dGjQ/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/-JfxTnVl5ygo/AAAAAAAAAAI/AAAAAAAAAAA/dO-dGc4dGjQ/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            }
+          },
+          "channelTitle": "Google for Education",
+          "liveBroadcastContent": "upcoming",
+          "publishTime": "2010-08-18T17:16:03Z"
+        }
+      }
+    ]
+  }

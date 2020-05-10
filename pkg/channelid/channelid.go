@@ -3,6 +3,8 @@ package channelid
 import (
 	"io/ioutil"
 	"net/http"
+
+	"github.com/hsmtkk/youtube_latest_video_go/pkg/channelid/parser"
 )
 
 type ChannelIDResolver interface {
@@ -44,5 +46,9 @@ func (impl *channelIDResolverImpl) ResolveChannelID(channelName string) (string,
 	if err != nil {
 		return "", err
 	}
-	return string(bs), nil
+	id, err := parser.New().ParseResponse(string(bs))
+	if err != nil {
+		return "", err
+	}
+	return id, nil
 }
