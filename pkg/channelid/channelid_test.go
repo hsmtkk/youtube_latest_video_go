@@ -1,11 +1,12 @@
 package channelid_test
 
 import (
-	"fmt"
+	"io"
 	"log"
 	"net/http"
 	"net/http/httptest"
 	"net/http/httputil"
+	"os"
 	"testing"
 
 	"github.com/hsmtkk/youtube_latest_video_go/pkg/apikey"
@@ -18,14 +19,20 @@ func TestLocal(t *testing.T) {
 		bs, err := httputil.DumpRequest(r, false)
 		assert.Nil(t, err, "should be nil")
 		log.Println(string(bs))
-		fmt.Fprintln(w, "Hello, client")
+		reader, err := os.Open("./example_response.json")
+		defer reader.Close()
+		assert.Nil(t, err, "should be nil")
+		written, err := io.Copy(w, reader)
+		assert.Nil(t, err, "should be nil")
+		assert.Greater(t, written, int64(0), "should be greater than zero")
 	}))
 	defer ts.Close()
 
 	resolver := channelid.NewForTest(ts.Client(), ts.URL, "dummy")
-	channelID, err := resolver.ResolveChannelID("Google")
+	want := "UCK8sQmJBp8GCxrOtXWBpyEA"
+	got, err := resolver.ResolveChannelID("Google")
 	assert.Nil(t, err, "should be nil")
-	log.Println(channelID)
+	assert.Equal(t, want, got, "should be equal")
 }
 
 func TestReal(t *testing.T) {
