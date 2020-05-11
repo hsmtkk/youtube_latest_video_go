@@ -38,5 +38,6 @@ steps:
       YOUTUBE_API_KEY:
         from_secret: YOUTUBE_API_KEY
     commands:
+      - cd cmd/youtube
       - ./youtube atonce Yahoo
       - test -f default.jpg
