@@ -14,15 +14,19 @@ var ChannelIDCommand = &cobra.Command{
 	Args: cobra.ExactArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 		channelName := args[0]
-		apiKey, err := apikey.New().LoadAPIKey()
-		if err != nil {
-			log.Fatal(err)
-		}
-		resolver := channelid.New(apiKey)
-		channelID, err := resolver.ResolveChannelID(channelName)
-		if err != nil {
-			log.Fatal(err)
-		}
-		fmt.Println(channelID)
+		fmt.Println(GetChannelID(channelName))
 	},
+}
+
+func GetChannelID(channelName string) string {
+	apiKey, err := apikey.New().LoadAPIKey()
+	if err != nil {
+		log.Fatal(err)
+	}
+	resolver := channelid.New(apiKey)
+	channelID, err := resolver.ResolveChannelID(channelName)
+	if err != nil {
+		log.Fatal(err)
+	}
+	return channelID
 }

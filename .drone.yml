@@ -18,6 +18,9 @@ steps:
       - cd pkg/apikey && go test
       - cd ../channelid && go test
       - cd parser && go test
+      - cd ../../geturl && go test
+      - cd ../latestvideo && go test
+      - cd parser && go test
   - name: build
     depends_on:
       - lint
@@ -25,7 +28,8 @@ steps:
     environment:
       CGO_ENABLED: "0"
     commands:
-      - echo success
+      - cd cmd/youtube
+      - go build
   - name: run
     depends_on:
       - build
@@ -34,4 +38,5 @@ steps:
       YOUTUBE_API_KEY:
         from_secret: YOUTUBE_API_KEY
     commands:
-      - echo success
+      - ./youtube atonce Yahoo
+      - test -f default.jpg
